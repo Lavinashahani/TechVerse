@@ -32,8 +32,8 @@ A responsive **technical blogging platform** built using **React**, **Redux**, *
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/technical-blog-app.git
-cd technical-blog-app
+git clone https://github.com/yourusername/TechVerse.git
+cd TechVerse
 
 ```
 
@@ -82,24 +82,6 @@ npm run dev
 ```
 
 Visit: http://localhost:5173
-
-### Folder Structure
-```bash
-src/
-├── app/                # Redux store setup
-│   └── store.js
-├── components/
-│   ├── Auth/
-│   ├── Blog/
-├── features/           # Redux slices
-│   └── authSlice.js
-│   └── postSlice.js
-├── pages/              # Page components
-├── services/           # Appwrite service methods
-├── styles/             # Tailwind global styles
-├── App.jsx
-├── main.jsx
-```
 
 ### Scripts
   --- npm run dev: Run development server
